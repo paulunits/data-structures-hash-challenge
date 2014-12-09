@@ -23,7 +23,7 @@ Since a Hash is a kind of Map, it has the same interface:
 - `Hash#remove(key)`: Remove the entry stored at `key`
 - `Hash#iterate{ |value, key| block }`: Iterate through the Hash, passing the block each value and key
 
-Each of these methods (except iterate) should be O(1).
+Each of these methods (except iterate) should be O(1). Note that with a perfect hash function (every key maps to a unique number, there are no "collisions") access is always O(1). You might have a "pretty good" hash function that generates a few collisions. It might take longer that constant time, but it should still remain exceptionally fast as `n` grows.
 
 ### Things to think about
 
