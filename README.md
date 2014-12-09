@@ -37,7 +37,7 @@ Each of these methods (except iterate) should be O(1). Note that with a perfect 
 
 In a file called `notes.md`, describe _why_ Hash operations are so fast. What about them gives us these constant time methods? What are some downsides of a hash?
 
-## Release 3, Implement a HashSet
+## Stretch, Implement a HashSet
 
 Implement and test a `HashSet` class. Your HashSet should conform to the Set interface:
 
