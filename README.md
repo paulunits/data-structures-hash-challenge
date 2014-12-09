@@ -12,6 +12,8 @@ Hashes are _fast_. Inserting and retrieving records are both constant time (O(1)
 
 Implement and test a `Hash` class, you can use Ruby's array on this one behind the scenes if you'd like.
 
+Your Hash should only use Strings as keys. Don't worry about other types.
+
 Since a Hash is a kind of Map, it has the same interface:
 
 - `Hash::new`: Instantiate a new dictionary
@@ -28,6 +30,7 @@ Each of these methods (except iterate) should be O(1).
  * What data structure have you used that provides constant-time reads and writes?
  * How can you use that structure to your advantage?
  * Read Wikipedia's entry on [Hash Tables](http://en.wikipedia.org/wiki/Hash_table) if you get stuck
+ * How will you produce a [Hash Function](http://en.wikipedia.org/wiki/Hash_function) for a String? Note: it doesn't need to be a perfect hash function, collisions are OK
 
 
 ## Release 2, Why are Hashes fast?
