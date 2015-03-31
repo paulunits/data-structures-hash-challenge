@@ -32,6 +32,10 @@ Each of these methods (except iterate) should be O(1). Note that with a perfect 
  * Read Wikipedia's entry on [Hash Tables](http://en.wikipedia.org/wiki/Hash_table) if you get stuck
  * How will you produce a [Hash Function](http://en.wikipedia.org/wiki/Hash_function) for a String? Note: it doesn't need to be a perfect hash function, collisions are OK
 
+### Timebox your Hash Function
+
+Don't spend longer than 30 minutes on your hash function for String. You can look up various implementations online. It's best to pick the simplest one that makes sense to you, even if it's not perfect. 
+
 
 ## Release 2, Why are Hashes fast?
 
